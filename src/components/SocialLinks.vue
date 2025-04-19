@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 </script>
 
 <template>
-  <Card class="bg-sky-400 my-1 max-md:mx-1 md:mx-32">
+  <Card class="bg-sky-400 my-1 max-md:mx-1 md:mx-32 md:w-xl md:pr-auto">
     <CardHeader>
       <CardTitle>Clicky Coyote</CardTitle>
       <!--      <CardDescription>Social Links</CardDescription>-->
@@ -24,7 +24,7 @@ import { Button } from '@/components/ui/button'
       </a>
     </CardContent>
     <CardFooter class="flex flex-row flex-wrap justify-around">
-      <img src="../assets/badge.png" class="md:w-md my-auto">
+      <img src="../assets/badge.png" class="md:w-md">
     </CardFooter>
   </Card>
 </template>
