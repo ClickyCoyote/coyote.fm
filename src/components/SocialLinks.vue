@@ -1,14 +1,20 @@
 <script setup lang="ts">
 import { Card, CardContent, CardFooter, CardHeader, CardTitle, } from './ui/card'
 import { Button } from '@/components/ui/button'
+
+
+const badges = ['badge', 'yoteyipyap', 'clicky5', 'clicky7', 'clicky9', 'clicky10']
+const rand = Math.floor(Math.random() * badges.length)
+const coinFlip = Math.round(Math.random())
+const badge = `/src/assets/badges/${coinFlip === 1 ? `badge` : badges[rand]}.png`
+
 </script>
 
 <template>
   <Card class="bg-sky-400 my-1 max-md:mx-1 md:mx-32 md:w-xl md:pr-auto gap-0">
     <CardHeader>
-      <CardTitle class="text-4xl font-extralight text-sky-900"><img src="../assets/profile-pic.png"
-                                                                    class="h-16 mr-2 inline">Clicky
-        Coyote
+      <CardTitle class="text-4xl font-extralight text-sky-900">
+        <img src="../assets/profile-pic.png" class="h-16 mr-2 inline">Clicky Coyote
       </CardTitle>
       <!--      <CardDescription>Social Links</CardDescription>-->
     </CardHeader>
@@ -80,7 +86,7 @@ import { Button } from '@/components/ui/button'
 
     </CardContent>
     <CardFooter class="flex flex-row flex-wrap justify-around">
-      <img src="../assets/badge.png" class="mt-2 md:w-md">
+      <img v-bind:src="badge" class="mt-2 md:w-md">
     </CardFooter>
   </Card>
 </template>
