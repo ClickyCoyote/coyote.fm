@@ -11,17 +11,24 @@ import { Button } from '@/components/ui/button'
     </CardHeader>
     <CardContent class="flex flex-row flex-wrap justify-around">
       <a
-          href="https://bsky.app/profile/clicky.coyote.fm">
-        <Button class="w-32 m-1 py-5 bg-sky-200 hover:bg-sky-100 text-neutral-800 cursor-pointer">
+          href="https://bsky.app/profile/clicky.coyote.fm" class="flex-1/3 m-2">
+        <Button class="w-full m-1 py-5 bg-sky-200 hover:bg-sky-100 text-neutral-800 cursor-pointer flex-1/2">
           <img src="../assets/bsky-logo.png" class="icon">BlueSky
         </Button>
       </a>
       <a
-          href="https://t.me/ClickyCoyote">
-        <Button class="w-32 m-1 py-5  bg-sky-200 hover:bg-sky-100 text-neutral-800 cursor-pointer">
+          href="https://t.me/ClickyCoyote" class="flex-1/3 m-2">
+        <Button class="w-full m-1 py-5  bg-sky-200 hover:bg-sky-100 text-neutral-800 cursor-pointer">
           <img src="../assets/telegram-logo.png" class="icon"> Telegram
         </Button>
       </a>
+      <!--      <a-->
+      <!--          href="../assets/refsheet.png" class="flex-1/2 m-2">-->
+      <!--        <Button class="w-full m-1 py-5  bg-sky-200 hover:bg-sky-100 text-neutral-800 cursor-pointer">-->
+      <!--          Ref Sheet-->
+      <!--        </Button>-->
+      <!--      </a>-->
+
     </CardContent>
     <CardFooter class="flex flex-row flex-wrap justify-around">
       <img src="../assets/badge.png" class="md:w-md">
