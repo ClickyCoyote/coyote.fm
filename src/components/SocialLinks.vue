@@ -12,13 +12,13 @@ import { Button } from '@/components/ui/button'
     <CardContent class="flex flex-row flex-wrap justify-around">
       <a
           href="https://bsky.app/profile/clicky.coyote.fm">
-        <Button class="w-40 m-1 py-5 bg-sky-200 hover:bg-sky-100 text-neutral-800 cursor-pointer">
+        <Button class="w-36 m-1 py-5 bg-sky-200 hover:bg-sky-100 text-neutral-800 cursor-pointer">
           <img src="../assets/bsky-logo.png" class="icon">BlueSky
         </Button>
       </a>
       <a
           href="https://t.me/ClickyCoyote">
-        <Button class="w-40 m-1 py-5  bg-sky-200 hover:bg-sky-100 text-neutral-800 cursor-pointer">
+        <Button class="w-36 m-1 py-5  bg-sky-200 hover:bg-sky-100 text-neutral-800 cursor-pointer">
           <img src="../assets/telegram-logo.png" class="icon"> Telegram
         </Button>
       </a>
