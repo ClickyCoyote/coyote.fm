@@ -3,13 +3,13 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle, 
 </script>
 
 <template>
-  <Card>
+  <Card class="bg-sky-400">
     <CardHeader>
       <CardTitle>Clicky Coyote</CardTitle>
       <CardDescription>Social Links</CardDescription>
     </CardHeader>
     <CardContent>
-      <p><a href="https://bsky.app/clicky.coyote.fm">BlueSky</a></p>
+      <p><a href="https://bsky.app/profile/clicky.coyote.fm">BlueSky</a></p>
     </CardContent>
     <CardFooter>
     </CardFooter>
