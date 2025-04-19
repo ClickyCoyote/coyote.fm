@@ -9,21 +9,22 @@ import { Button } from '@/components/ui/button'
       <CardTitle>Clicky Coyote</CardTitle>
       <!--      <CardDescription>Social Links</CardDescription>-->
     </CardHeader>
-    <CardContent class="flex flex-col">
+    <CardContent class="flex flex-row flex-wrap justify-around">
       <a
           href="https://bsky.app/profile/clicky.coyote.fm">
-        <Button class="text-left m-1 py-5 w-48 bg-sky-200 hover:bg-sky-100 text-neutral-800 cursor-pointer">
+        <Button class="w-40 m-1 py-5 bg-sky-200 hover:bg-sky-100 text-neutral-800 cursor-pointer">
           <img src="../assets/bsky-logo.png" class="icon">BlueSky
         </Button>
       </a>
       <a
           href="https://t.me/ClickyCoyote">
-        <Button class="m-1 py-5 w-48 bg-sky-200 hover:bg-sky-100 text-neutral-800 cursor-pointer">
+        <Button class="w-40 m-1 py-5  bg-sky-200 hover:bg-sky-100 text-neutral-800 cursor-pointer">
           <img src="../assets/telegram-logo.png" class="icon"> Telegram
         </Button>
       </a>
     </CardContent>
-    <CardFooter>
+    <CardFooter class="flex flex-row flex-wrap justify-around">
+      <img src="../assets/badge.png" class="md:w-md my-auto">
     </CardFooter>
   </Card>
 </template>
