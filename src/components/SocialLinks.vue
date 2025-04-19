@@ -3,10 +3,10 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle, } from './ui/card
 import { Button } from '@/components/ui/button'
 
 
-const badges = ['badge', 'yoteyipyap', 'clicky5', 'clicky7', 'clicky9', 'clicky10']
-const rand = Math.floor(Math.random() * badges.length)
-const coinFlip = Math.round(Math.random())
-const badge = `/src/assets/badges/${coinFlip === 1 ? `badge` : badges[rand]}.png`
+// const badges = ['badge', 'yoteyipyap', 'clicky5', 'clicky7', 'clicky9', 'clicky10']
+// const rand = Math.floor(Math.random() * badges.length)
+// const coinFlip = Math.round(Math.random())
+// const badge = `/src/assets/badges/${coinFlip === 1 ? `badge` : badges[rand]}.png`
 
 </script>
 
