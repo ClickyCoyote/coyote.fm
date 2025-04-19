@@ -86,7 +86,7 @@ const badge = `/src/assets/badges/${coinFlip === 1 ? `badge` : badges[rand]}.png
 
     </CardContent>
     <CardFooter class="flex flex-row flex-wrap justify-around">
-      <img v-bind:src="badge" class="mt-2 md:w-md">
+      <img src="../assets/badges/badge.png" class="mt-2 md:w-md">
     </CardFooter>
   </Card>
 </template>
