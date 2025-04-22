@@ -41,11 +41,10 @@ import Badge from '@/components/Badge.vue'
           <img src="../assets/vrchat-logo.png" class="h-8">VR Chat
         </Button>
       </a>
-
       <a
-          href="https://t.me/addstickers/ClickyCoyote" class="row-start-3 m-1">
+          href="https://www.furtrack.com/user/ClickyCoyote/fursuiting" class="row-start-3 m-1">
         <Button class="w-full py-5  bg-sky-200 hover:bg-sky-100 text-sky-900 cursor-pointer">
-          <img src="../assets/stickers1.png" class="h-8">Sticker Pack
+          <img src="../assets/furtrack-logo.png" class="h-8">FurTrack
         </Button>
       </a>
       <a
@@ -56,9 +55,15 @@ import Badge from '@/components/Badge.vue'
       </a>
 
       <a
-          href="https://drive.proton.me/urls/WPXJHPK5M8#R76vN5VYDSbu" class="row-start-4 col-span-2 m-1">
+          href="https://drive.proton.me/urls/WPXJHPK5M8#R76vN5VYDSbu" class="row-start-4 col-span-1 m-1">
         <Button class="w-full py-5  bg-sky-200 hover:bg-sky-100 text-sky-900 cursor-pointer">
-          Ref Sheet
+          <img src="../assets/art-emoji.png" class="h-8">Ref Sheet
+        </Button>
+      </a>
+      <a
+          href="https://t.me/addstickers/ClickyCoyote" class="m-1">
+        <Button class="w-full py-5  bg-sky-200 hover:bg-sky-100 text-sky-900 cursor-pointer">
+          <img src="../assets/stickers1.png" class="h-8">Sticker Pack
         </Button>
       </a>
 
