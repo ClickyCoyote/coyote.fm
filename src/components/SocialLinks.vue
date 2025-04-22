@@ -1,12 +1,9 @@
 <script setup lang="ts">
 import { Card, CardContent, CardFooter, CardHeader, CardTitle, } from './ui/card'
 import { Button } from '@/components/ui/button'
+import Badge from '@/components/Badge.vue'
+// import * as fs from 'node:fs'
 
-
-// const badges = ['badge', 'yoteyipyap', 'clicky5', 'clicky7', 'clicky9', 'clicky10']
-// const rand = Math.floor(Math.random() * badges.length)
-// const coinFlip = Math.round(Math.random())
-// const badge = `/src/assets/badges/${coinFlip === 1 ? `badge` : badges[rand]}.png`
 
 </script>
 
@@ -86,7 +83,7 @@ import { Button } from '@/components/ui/button'
 
     </CardContent>
     <CardFooter class="flex flex-row flex-wrap justify-around">
-      <img src="../assets/badges/badge.png" class="mt-2 md:w-md">
+      <Badge :randomBadge="true" class="mt-2 md:w-md" />
     </CardFooter>
   </Card>
 </template>
