@@ -55,7 +55,7 @@ import Badge from '@/components/Badge.vue'
       </a>
 
       <a
-          href="https://drive.proton.me/urls/A6G65HMQ28#POHmNG1WalY5" class="row-start-4 col-span-1 m-1">
+          href="https://drive.proton.me/urls/76RVX8XBNW#ACVWbCOfyP5C" class="row-start-4 col-span-1 m-1">
         <Button class="w-full py-5  bg-sky-200 hover:bg-sky-100 text-sky-900 cursor-pointer">
           <img src="../assets/art-emoji.png" class="h-8">Ref Sheet
         </Button>
