@@ -11,7 +11,7 @@ import Badge from '@/components/Badge.vue'
   <Card class="bg-sky-400 my-1 max-md:mx-1 md:mx-32 md:w-xl md:pr-auto gap-0">
     <CardHeader>
       <CardTitle class="text-4xl font-extralight text-sky-900">
-        <img src="../assets/profile-pic.png" class="h-16 mr-2 inline">Clicky Coyote
+        <img src="../assets/profile-pic-2.png" class="h-16 mr-2 inline">Clicky Coyote
       </CardTitle>
       <!--      <CardDescription>Social Links</CardDescription>-->
     </CardHeader>
