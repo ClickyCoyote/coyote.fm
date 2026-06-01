@@ -16,8 +16,7 @@ import { Button, Card } from 'primevue'
             <img src="/refsheet.png" alt="image" />
           </template>
           <template #preview="slotProps">
-            <img src="/refsheet.png" class="max-h-screen" alt="preview" :style="slotProps.style"
-                 @click="slotProps.onClick" />
+            <img src="/refsheet.png" class="max-h-screen" alt="preview" :style="slotProps.style" />
           </template>
         </Image>
       </template>
@@ -37,8 +36,7 @@ import { Button, Card } from 'primevue'
             <img src="/refsheet-nsfw.png" class="blur-md" alt="image" />
           </template>
           <template #preview="slotProps">
-            <img src="/refsheet-nsfw.png" class="max-h-screen" alt="preview" :style="slotProps.style"
-                 @click="slotProps.onClick" />
+            <img src="/refsheet-nsfw.png" class="max-h-screen" alt="preview" :style="slotProps.style" />
           </template>
         </Image>
       </template>
@@ -58,8 +56,7 @@ import { Button, Card } from 'primevue'
             <img src="/refsheet-fem.png" alt="image" />
           </template>
           <template #preview="slotProps">
-            <img src="/refsheet-fem.png" class="max-h-screen" alt="preview" :style="slotProps.style"
-                 @click="slotProps.onClick" />
+            <img src="/refsheet-fem.png" class="max-h-screen" alt="preview" :style="slotProps.style" />
           </template>
         </Image>
       </template>
