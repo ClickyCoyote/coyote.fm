@@ -55,12 +55,12 @@ import Badge from '@/components/Badge.vue'
         </Button>
       </a>
 
-      <a
-          href="https://drive.proton.me/urls/76RVX8XBNW#ACVWbCOfyP5C" class="row-start-4 col-span-1 m-1">
+      <RouterLink to="/ref"
+                  class="row-start-4 col-span-1 m-1">
         <Button class="w-full py-5  bg-sky-200 hover:bg-sky-100 text-sky-900 cursor-pointer">
           <img src="../assets/art-emoji.png" class="h-8">Ref Sheet
         </Button>
-      </a>
+      </RouterLink>
       <a
           href="https://t.me/addstickers/ClickyCoyote" class="m-1">
         <Button class="w-full py-5  bg-sky-200 hover:bg-sky-100 text-sky-900 cursor-pointer">
