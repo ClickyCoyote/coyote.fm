@@ -45,6 +45,7 @@ import { Button, Card } from 'primevue'
         </Button>
       </template>
     </Card>
+    <!--
     <Card class="m-1">
       <template #header><h1 class="text-center">Reference Sheet (Fem)</h1></template>
       <template #content>
@@ -66,6 +67,7 @@ import { Button, Card } from 'primevue'
         </Button>
       </template>
     </Card>
+    -->
   </div>
 </template>
 
