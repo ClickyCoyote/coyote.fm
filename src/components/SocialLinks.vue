@@ -18,7 +18,7 @@ import Badge from '@/components/Badge.vue'
     </CardHeader>
     <CardContent class="grid grid-cols-2">
       <a
-          href="https://bsky.app/profile/clicky.coyote.fm" class="row-start-1 m-1">
+          href="https://bsky.app/profile/coyote.fm" class="row-start-1 m-1">
         <Button class="w-full py-5 bg-sky-200 hover:bg-sky-100 text-sky-900 cursor-pointer">
           <img src="../assets/bsky-logo.png" class="h-8">BlueSky
         </Button>
