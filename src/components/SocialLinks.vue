@@ -8,7 +8,7 @@ import Badge from '@/components/Badge.vue'
 </script>
 
 <template>
-  <Card class="bg-sky-400 my-1 max-md:mx-1 md:mx-32 md:w-xl md:pr-auto gap-0">
+  <Card class="bg-sky-400 max-md:mx-4 min-md:w-xl min-md:mx-auto md:pr-auto gap-0">
     <CardHeader>
       <CardTitle class="text-4xl font-extralight text-sky-900">
         <img src="../assets/profile-pic-2.png" class="h-16 mr-4 inline" />

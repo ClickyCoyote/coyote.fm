@@ -8,10 +8,12 @@ import Aura from '@primeuix/themes/aura'
 import { createRouter, createWebHashHistory } from 'vue-router'
 import { RefSheet, SocialLinks } from '@/components'
 import { definePreset } from '@primeuix/themes'
+import Pay from '@/components/Pay.vue'
 
 const routes = [
   { path: '/', component: SocialLinks },
   { path: '/ref', component: RefSheet },
+  { path: '/pay', component: Pay }
 ]
 
 const router = createRouter({
@@ -106,6 +108,31 @@ const Theme = definePreset(Aura, {
             background: '{surface.900}',
             borderRadius: '0',
             borderColor: 'transparent',
+          },
+        },
+      },
+    },
+    button: {
+      colorScheme: {
+        light: {
+          root: {
+            primary: {
+              background: '{primary.200}',
+              color: '{primary.900}',
+              hoverBackground: '{primary.100}',
+              hoverColor: '{primary.900}',
+            }
+          },
+        },
+        dark: {
+          root: {
+            primary: {
+              background: '{primary.800}',
+              color: '{primary.50}',
+              hoverBackground: '{primary.900}',
+              hoverColor: '{primary.50}',
+            }
+
           },
         },
       },
